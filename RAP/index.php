@@ -76,7 +76,7 @@
 
 
 
-    <div class="container" style="background-color: #B99C6B;">
+    <div class="container">
 
       <!-- Example row of columns -->
 
