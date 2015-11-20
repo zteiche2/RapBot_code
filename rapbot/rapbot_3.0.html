@@ -109,8 +109,8 @@
   #YouTubePlayer
   {
     position: absolute;
-    top: 55%;
-    left: 42%;
+    top: 70%;
+    left: 36%;
   }
 
   #rapHeader {
@@ -376,11 +376,18 @@
 
 <!-- <script src="js.js"></script> -->
 
+
+
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 
 <script>
 
 
+function YouTubeVid()
+{
+  var x = document.forms["formofadragon"]["YouTubeLink"].value;
+  document.getElementById("YouTubePlayer").innerHTML = "<iframe width = '30%' height = '100' src = '" + x + "'></iframe>";
+}
 
 // Voice Rec
 var langs =
